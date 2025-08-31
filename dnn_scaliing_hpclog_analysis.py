@@ -15,7 +15,7 @@ from torch.utils.data import Dataset, DataLoader, WeightedRandomSampler
 from torch.nn.parallel import DataParallel
 
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import PowerTransformer
+from sklearn.preprocessing import MinMaxScaler, StandardScaler, MaxAbsScaler, RobustScaler, Normalizer, QuantileTransformer, PowerTransformer
 from sklearn.metrics import (
     classification_report, confusion_matrix, roc_curve, roc_auc_score
 )
