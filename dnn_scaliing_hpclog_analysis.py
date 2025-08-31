@@ -36,7 +36,7 @@ PERSISTENT  = True
 OUT_DIR = "power_comp_eval"
 os.makedirs(OUT_DIR, exist_ok=True)
 
-DATA_PATH = "/scratch/ghlee/workspace/nurion_log_analysis/data/20200101_20241231.csv"
+DATA_PATH = "/.../data/20200101_20241231.csv"
 
 # =============================
 # Data loading & filtering
