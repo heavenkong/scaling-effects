@@ -1,3 +1,7 @@
+# ==================================================================
+# This code was wrriten by Gukhua Lee (KISTI, ghlee@kisti.re.kr) 
+# ==================================================================
+
 import os, json, time, csv
 import numpy as np
 import pandas as pd
